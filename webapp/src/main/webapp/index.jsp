@@ -4,13 +4,15 @@
     <p>Please fill in this form to create an account.</p>
     <hr>
      
-    <label for="Name"><b>Enter firstname &nbsp;</b></label>
-    <input type="text" placeholder="firstName" name="Name" id="Name" required>
+    <label for="fname"><b>Enter firstname &nbsp;</b></label>
+    <input type="text" placeholder="firstName" name="fname" id="fname" required>
     <br>
-    <label for="Name"><b>Enter lastname &nbsp;</b></label>
-    <input type="text" placeholder="lastName" name="Name" id="lastname" required>
+    <label for="lname"><b>Enter lastname &nbsp;</b></label>
+    <input type="text" placeholder="lastName" name="lname" id="lname" required>
     <br>
-    
+    <label for="dob"><b>Date of birth &nbsp;&nbsp;</b></label>
+    <input type="date" placeholder="Date of birth" name="dob" id="dob" required>
+    <br>
     <label for="mobile"><b>Enter mobile</b></label>
     <input type="text" placeholder="moible number" name="mobile" id="mobile" required>
     <br>
